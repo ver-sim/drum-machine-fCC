@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: rgb(249, 239, 239);
+    margin: 30px;
+}
+
+#drum-machine {
+    background-color: rgb(161, 221, 161);
+    width: 100%;
+    height: 100%;
+    border: 5px solid rgb(32, 32, 99);
+    border-radius: 5px;
+    #display {
+        min-height: 100px;
+        font-size: larger;
+        font-weight: 700;
+    }
+    #pad-button {
+        width: 100%;
+        button {
+            margin: 0.20rem;
+        }
+    }
+}
